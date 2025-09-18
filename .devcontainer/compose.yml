@@ -5,7 +5,6 @@ services:
   py:
     container_name: py-template-dev
     build:
-      target: vsc-py-dev
       dockerfile: .devcontainer/Dockerfile
     image: py-template
     volumes:
